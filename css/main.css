@@ -35,15 +35,15 @@ h4 {
     color: antiquewhite;
 }
 #card-heads {
-    background-color: #333333;
+    background-color: #222222;
     color: antiquewhite;
 }
 
 #skills {
     font-family: sans-serif;
-    background: #333333;
-    width: 500px;
-    margin: 60px auto;
+    background: #222222;
+    width: auto;
+    /* margin: 60px auto; */
     color: papayawhip;
 }
 

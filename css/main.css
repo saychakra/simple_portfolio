@@ -1,0 +1,121 @@
+#body-attrs {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+}
+
+#profile-wrapper {
+    text-align: center;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#social-links {
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links ul, li{
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+h4 {
+    color: navajowhite;
+}
+
+#card-body {
+    background-color: #222222;
+    color: antiquewhite;
+}
+#card-heads {
+    background-color: #333333;
+    color: antiquewhite;
+}
+
+#skills {
+    font-family: sans-serif;
+    background: #333333;
+    width: 500px;
+    margin: 60px auto;
+    color: papayawhip;
+}
+
+#skills li {
+    margin: 20px 0;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span {
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.cpp {
+    width: 60%;
+    animation: cpp 2s;
+}
+
+.python {
+    width: 70%;
+    animation: python 2s;
+}
+
+.java {
+    width: 48%;
+    animation: java 2s;
+}
+
+.js {
+    width: 30%;
+    animation: js 2s;
+}
+@keyframes cpp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 48%;
+    }
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}

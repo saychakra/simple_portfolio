@@ -1,6 +1,6 @@
 #body-attrs {
     background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 #profile-wrapper {
